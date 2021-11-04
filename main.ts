@@ -135,3 +135,15 @@ basic.forever(function () {
         letter = 0
     }
 })
+/**
+ * Provides access to basic micro:bit functionality.
+ */
+//% color=190 weight=100 icon="\uf1ec" block="Basic Blocks"
+//% groups=['LED matrix', 'Control flow', 'others']
+namespace basic {
+show number 150
+}
+//% blockId=device_show_number
+//% block="show|number %v"
+export function showNumber(v: number, interval: number = 150): void
+{ }
